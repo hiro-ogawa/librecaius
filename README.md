@@ -12,6 +12,7 @@
 
 ## コンパイル
 buildディレクトリで下記の通りで実行できます．
+
 > cmake ..
 > make
 > make run
