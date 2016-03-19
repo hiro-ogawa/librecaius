@@ -1,0 +1,3 @@
+# librecaius
+build内の設定ファイル_recaius_id.jsonには正しい情報を記載して
+ファイル名の先頭のアンダーバーをなくしてrecaius_id.jsonにする必要があります．
