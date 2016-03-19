@@ -1,0 +1,24 @@
+{
+  "recog": {
+    "ja_JP": {
+      "id": "dummy_id",
+      "password": "dummy_pass",
+      "model_id": 1
+    },
+    "en_US": {
+      "id": "dummy_id-enUS",
+      "password": "dummy_pass",
+      "model_id": 5
+    },
+    "zh_CN": {
+      "id": "dummy_id-zhCN",
+      "password": "dummy_pass",
+      "model_id": 7
+    }
+  },
+  "synth": {
+    "id": "dummy_id",
+    "password": "dummy_pass"
+    }
+  }
+}
