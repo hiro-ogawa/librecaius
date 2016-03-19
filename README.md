@@ -14,9 +14,9 @@
 buildディレクトリで下記の通りで実行できます．
 
 ``` Bash
-> cmake ..
-> make
-> make run
+cmake ..
+make
+make run
 ```
 
 ## 注意
