@@ -250,9 +250,11 @@ string CRecaiusRecognition::SendVoice(int voice_id, vector<unsigned char> data)
 
   post1 = NULL;
   postend = NULL;
+  stringstream stream;
+  stream << voice_id;
   curl_formadd(&post1, &postend,
                CURLFORM_COPYNAME, "voiceid",
-               CURLFORM_COPYCONTENTS, to_string(voice_id).c_str(),
+               CURLFORM_COPYCONTENTS, stream.str().c_str(),
                CURLFORM_END);
   if(data.size())
   {
@@ -327,7 +329,7 @@ string CRecaiusRecognition::SendWaveFile(string fname)
   vector<unsigned char> wave_data;
 
   //バイナリファイル読み込み
-  ifstream ifs(fname, ios::in | ios::binary);
+  ifstream ifs((const char*)fname.c_str(), ios::in | ios::binary);
   ifs.seekg(0, fstream::end);
   unsigned int eofPos = ifs.tellg();
   ifs.clear();

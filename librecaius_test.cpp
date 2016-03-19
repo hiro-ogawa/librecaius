@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <fstream>
 #include <iostream>
 using namespace std;
@@ -96,7 +97,7 @@ void SynthesisTest()
 
     synth.SetSpeaker(i);
 
-    ifstream ifs(fname);
+    ifstream ifs((const char*)fname.c_str());
     if (ifs.fail())
     {
         cerr << "Load Text Failed" << endl;
@@ -112,7 +113,7 @@ void SynthesisTest()
 
     string wavfname = "synth-test-" + synth.speakers[i].speaker_id + ".wav";
     cout << wavfname << endl;
-    ofstream ofs(wavfname, ios::binary);
+    ofstream ofs((const char*)wavfname.c_str(), ios::binary);
     ofs.write((const char*)&raw[0], raw.size());
   }
 }
