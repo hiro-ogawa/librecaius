@@ -4,8 +4,17 @@
 
 ## 依存ライブラリ
 * Boost
+  * XMLのパースに使用
 * libcurl
+  * REST APIへのアクセスに使用
 * libjsoncpp
+  * jsonのパースに使用
+
+## コンパイル
+buildディレクトリで下記の通りで実行できます．
+> cmake ..
+> make
+> make run
 
 ## 注意
 build内の設定ファイル_recaius_id.jsonには正しい情報を記載し，
