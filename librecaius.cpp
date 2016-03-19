@@ -561,7 +561,7 @@ int CSynth::GetSpeakerList()
   json_value["password"] = password;
   Json::FastWriter writer;
   string json_string = writer.write(json_value);
-  json_string.pop_back();
+  // json_string.pop_back();
   cout << json_string << endl;
 
   //recaiusにアクセス
