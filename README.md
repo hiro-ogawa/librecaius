@@ -13,9 +13,11 @@
 ## コンパイル
 buildディレクトリで下記の通りで実行できます．
 
+``` Bash
 > cmake ..
 > make
 > make run
+```
 
 ## 注意
 build内の設定ファイル_recaius_id.jsonには正しい情報を記載し，
