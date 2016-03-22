@@ -22,3 +22,6 @@ make run
 ## 注意
 build内の設定ファイル_recaius_id.jsonには正しい情報を記載し，
 ファイル名の先頭のアンダーバーをなくしてrecaius_id.jsonにする必要があります．
+
+## License
+This software is released under the MIT License, see LICENSE.txt.
