@@ -1,3 +1,12 @@
+/**
+Recaius Library Test
+
+Copyright (c) 2016 Hironori Ogawa
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+*/
+
 #include <unistd.h>
 #include <fstream>
 #include <iostream>
