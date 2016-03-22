@@ -1,8 +1,12 @@
-// =================
-// Recaius Library
-// Version 0.1
-// 2015/3/13 Hiro Ogawa
-// =================
+/**
+Recaius Library
+
+Copyright (c) 2016 Hironori Ogawa
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+*/
+
 #ifndef LIBRECAIUS_H
 #define LIBRECAIUS_H
 
